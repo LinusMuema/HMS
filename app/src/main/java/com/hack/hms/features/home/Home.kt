@@ -1,6 +1,9 @@
 package com.hack.hms.features.home
 
-@Composables
-fun Home(){
+import androidx.compose.runtime.Composable
+import androidx.navigation.NavHostController
+
+@Composable
+fun Home(controller: NavHostController) {
 
 }
